@@ -302,3 +302,8 @@ select:focus{
         margin-left: -60px;
     }
 }
+@media screen and (max-width: 357px){
+    small{
+        font-size: 13px;
+    }
+}
