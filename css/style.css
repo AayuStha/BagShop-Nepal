@@ -80,6 +80,17 @@ p{
 .active:hover{
     background-color: #263ee1;
 }
+nav ul li a:hover{
+    background-color: #cd0709;
+    display: inline-block;
+    background: #263ee1;
+    color: #f4eef2;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius:50px ;
+    transform: background 0.5s;
+    
+}
 .header{
     background: radial-gradient(#f4eef2,#f4eef2);
 }
@@ -254,7 +265,7 @@ select:focus{
     margin-left: -100px;
 }
 #demo12{
-    margin-left: -150px;
+    margin-left: -10px;
 }
 #demo10{
     margin-left: -100px;
@@ -302,8 +313,9 @@ select:focus{
         margin-left: -60px;
     }
 }
-@media screen and (max-width: 357px){
+
+@media screen and (min-width: 1062px){
     small{
-        font-size: 13px;
+        font-size: 14px;
     }
 }
