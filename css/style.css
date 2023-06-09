@@ -250,8 +250,20 @@ select:focus{
     color: #fff;
 }
 
-
-
+#demo11{
+    margin-left: -100px;
+}
+#demo12{
+    margin-left: -100px;
+}
+.row-3{
+    margin-left: 350px;
+    font-size: 30px;
+}
+.price{
+    color: green;
+    font-size: 30px;
+}
 
 /* media query for less than 600ox */
 
@@ -268,5 +280,14 @@ select:focus{
     footer, .col-1, .col-2, table{
         flex-basis: 100%;
     }
-
+    #demo11{
+        margin-left: -40px;
+    }
+    #demo12{
+        margin-left: -40px;
+    }
+    .row-3{
+        margin-left: 50px;
+        font-size: 25px;
+    }
 }
