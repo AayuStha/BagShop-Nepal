@@ -254,6 +254,9 @@ select:focus{
     margin-left: -100px;
 }
 #demo12{
+    margin-left: -150px;
+}
+#demo10{
     margin-left: -100px;
 }
 .row-3{
@@ -264,7 +267,6 @@ select:focus{
     color: green;
     font-size: 30px;
 }
-
 /* media query for less than 600ox */
 
 @media only screen and (max-width: 600px){
@@ -281,7 +283,7 @@ select:focus{
         flex-basis: 100%;
     }
     #demo11{
-        margin-left: -40px;
+        margin-left: -30px;
     }
     #demo12{
         margin-left: -40px;
@@ -289,5 +291,14 @@ select:focus{
     .row-3{
         margin-left: 50px;
         font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 510px){
+    small{
+        font-size: 14px;
+    }
+    h1{
+        margin-left: -60px;
     }
 }
