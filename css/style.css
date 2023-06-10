@@ -22,6 +22,7 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin-right: 20px;
+    font-weight: 600;
 }
 
 a{
@@ -79,6 +80,7 @@ p{
 .active:hover{
     background-color: #263ee1;
 }
+
 nav ul li a:hover{
     background: #263ee1;
     color: #f4eef2;
