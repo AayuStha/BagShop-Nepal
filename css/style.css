@@ -278,9 +278,70 @@ select:focus{
     color: green;
     font-size: 30px;
 }
+
+/* contact */
+
+.wrapper{
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 20px;
+}
+h1{
+    margin-bottom: 10px;
+}
+.wrapper p{
+    margin-bottom: 40px;
+}
+.contact-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.contact-row .contact-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    text-align: left;
+
+}
+button{
+    background: #cd0709;
+    color: #fff;
+    width: 100px;
+    outline: none;
+    border: none;
+    height: 35px;
+    border-radius: 20px;
+    margin-top: 30px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+}
+button:hover{
+    cursor: pointer;
+}
+
 /* media query for less than 500px */
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 600px){
     .row{
         text-align: center;
     }
@@ -308,19 +369,47 @@ select:focus{
         margin: 50px 0;
         line-height: 30px;
     }
-}
-
-@media screen and (max-width: 510px){
-    small{
-        font-size: 14px;
+    #get{
+        margin-left: 0;
     }
+}
+@media screen and (max-width: 510px){
+    
     h1{
         margin-left: -60px;
     }
 }
 
-@media screen and (min-width: 1062px){
-    small{
-        font-size: 14px;
+@media screen and (max-width: 500px){
+    .navbar{
+        flex-direction: column;
+        align-items: center;
     }
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+@media screen and (max-width: 600px){
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width: 400px){
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    
 }
