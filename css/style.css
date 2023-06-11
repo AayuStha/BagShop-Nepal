@@ -338,15 +338,18 @@ button:hover{
 /* media query for less than 500px */
 
 @media only screen and (max-width: 600px){
+    
     .row{
         text-align: center;
     }
     .col-2, .col-3, .col-4{
         flex-basis:100% ;
     }
-    .col-2 .offer-img{
-        margin-left: -50px;
-    }
+    .col-2{
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        }
     footer, .col-1, .col-2, table{
         flex-basis: 100%;
     }
@@ -368,6 +371,7 @@ button:hover{
     #get{
         margin-left: 0;
     }
+    
 }
 @media screen and (max-width: 510px){
     
@@ -386,5 +390,10 @@ button:hover{
         text-align: center;
     }
     
-
+}
+@media screen and (max-width:541px){
+    .offer ,.offer-img{
+        padding: 0 !important;
+    }
+    
 }
