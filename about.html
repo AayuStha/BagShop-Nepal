@@ -11,14 +11,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        .navbar{
-            color: white;
-        }
-    </style>
+    
     <title>BagShop Nepal</title>
 </head>
 <body>
+    <div class="header">
         <div class="container">
             <div class="navbar">
                 <div class="logo">
@@ -27,52 +24,28 @@
                 </div>
                 <nav>
                     <ul id="items">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html" class="active">Home</a></li>
                         <li><a href="products.html">Products</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html" class="active">Contact</a></li>
+                        <li><a href="about.html" class="active">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                         <li><a href="offers.html">Offers</a></li>
                     </ul>
                 </nav>
                 <!-- <img src="images/cart.png" width="30px" height="30px"alt="cart"> -->
-                
+            </div>
+            <hr>
+            <br>
+            <div class="row">
+                <div class="col-2">
+                        <h1>This is About Page</h1>
+                </div>
+                <div class="col-2">
+                        <img src="images/demo.png" alt="bag">
+                </div>
             </div>
         </div>
-        <hr>
-
-    <div class="wrapper">
-        <h1 id="get">Get In Touch</h1>
-        <p>We would love to respond to your queries nad help you succeed. Feel free to get in touch with us.</p>
-            <div class="contact-left">
-                <br>
-                <form>
-                    <div class="contact-row">
-                        <div class="contact-group">
-                            <label>Name</label>
-                            <input type="text" placeholder="Stan Lee">
-                        </div>
-                        <div class="contact-group">
-                            <label>Phone</label>
-                            <input type="number" placeholder="+977-9841234567">
-                        </div>
-                    </div>
-                    <div class="contact-row">
-                        <div class="contact-group">
-                            <label>Email</label>
-                            <input type="email" placeholder="example@example.com">
-                        </div>
-                        <div class="contact-group">
-                            <label>Subject</label>
-                            <input type="text" placeholder="Topic to discuss">
-                        </div>
-                    </div>
-                    <label>Message</label>
-                    <textarea rows="5" placeholder="Your Query"></textarea>
-
-                    <button type="submit">SEND</button>
-                </form>
-            </div>
-    </div> 
+    </div>
+    <br>
 
     <!-- Footer -->
 
